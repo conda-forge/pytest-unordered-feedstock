@@ -1,5 +1,5 @@
 {% set name = "pytest-unordered" %}
-{% set version = "0.7.0" %}
+{% set version = "0.8.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 0f953a438db00a9f6f99a0f4727f2d75e72dd93319b3d548a97ec9db4903a44f
+  sha256: 3c369ed86919d3eb35e11fd27bb679c1e3506ead9327e25aa8a07307256be65a
 
 build:
   noarch: python
